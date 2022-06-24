@@ -11,8 +11,8 @@ const StyledWrapper = styled.div`
 const StyledInput = styled.input`
     width: 100%;
     border-radius: 8px;
-    border: 2px solid #00147A;
-    padding: 6px;
+    border: 1px solid #00147A;
+    padding: 12px;
     transition: all ease-in-out .2s;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -30,7 +30,7 @@ const InputWrapper = styled.div`
 `
 
 const StyledButton = styled.button`
-    max-width: 224px;
+    width: 248px;
     padding: 12px 20px;
     border-radius: 24px;
     outline: none;
@@ -38,6 +38,7 @@ const StyledButton = styled.button`
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #D1D9FF;
     transition: all ease-in-out .2s;
+    cursor: pointer;
     &:hover {
         background-color: #E0E6FF;
         scale: 1.03;
@@ -56,7 +57,7 @@ export default function Meme() {
                 <StyledInput for="Searching" placeholder="Bottom Row" />
             </InputWrapper>
             <StyledButton>
-                Get a New Meme Image
+                🌠 Get a New Meme Image
             </StyledButton>
         </StyledWrapper>
     )
